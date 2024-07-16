@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script defer src="script.js"></script>
+  
+</head>
+<body>
+    
+    <div class="main-container">
+    
+        <div class="header-container">
+            <header>
+                <nav>
+                    <img src="taxi-service-web-reliable-and-affordable-taxi-service.svg" alt="LOGO" >
+                    <a href="">Home</a>
+                    <a href="">Fleet</a>
+                    <a href="">About us</a>
+                    <a href="">Contact us</a>
+        
+                </nav>
+            </header>
+        </div>
+  
+
+    <div class="div-1">
+ 
+    
+    <div class="Textbox1">
+        <h1>Reliable and Affordable Taxi Service</h1>
+        <p>Book your ride with Acme Taxi and enjoy a hassle-free experience. <br>Our professional drivers are available 24/7 to take you wherever <br> you need to go.nd enjoy a hassle-free</p>
+        <button>Book a Ride</button>
+    </div>
+    <div class="image1">
+        <img src="taxi.png" alt="">
+    </div>
+</div>
+
+<!--------------------------2 div--------------------------->
+
+<div class="div-2 ">
+    <div class="textbox2">
+        <h1>Our Fleet of Vehicles</h1>
+        <p>Choose from our wide range of vehicles to suit your needs, from <br>sedans to SUVs and minivans.</p>
+    </div>
+<div class="images ">
+<div class="image hidden" style="width:35%">
+    <img src="santro.jpg" alt="taxi1">
+   <h4>Santro Taxi</h4> 
+   <br>
+    <p>4 Peoples</p>
+</div>
+<div class="image hidden" style="width:35%">
+    <img src="eeco.jpg" alt="taxi2">
+    <h4>ECCO Taxi</h4> <br>
+    <p>8 Peoples</p>
+</div>
+<div class="image hidden i10"  >
+    <img src="i10.jpg" alt="taxi2">
+    <h4>i10 Taxi</h4> <br>
+    <p>4 Peoples</p>
+</div>
+<div class="image hidden" style="width:35%">
+    <img src="aura.jpg" alt="taxi2">
+    <h4>Aura Taxi</h4> <br>
+    <p>4 Peoples</p>
+</div>
+</div>
+</div>
+<!-- 3 div -->
+ <section class="hidden">
+    <div class="acme">
+<div class="div-3">
+    <h1>Why Choose Acme Taxi?</h1>
+    <p>Discover the benefits of our reliable and affordable taxi service.
+    </p>
+</div>  
+    <div class="features">
+    <div class="about">
+       <ul>
+<li><h3>24/7 Availability</h3>
+    <p>Our taxis are available around the clock to meet your transportation <br>needs.</p>
+    </li>
+       </ul> 
+       <ul>
+        <li>
+            <h3>Professional Drivers</h3>
+<p>Our drivers are highly trained and experienced, ensuring a safe and <br>comfortable ride.</p>
+
+        </li>
+       </ul>
+<ul>
+    <li>
+        <h3>Competitive Pricing</h3>
+<p>We offer transparent and affordable rates to fit your budget.</p>
+
+    </li>
+</ul>
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="features.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="seat.jpg" alt="" class="image2">
+            </div>
+            <div class="swiper-slide">
+                <img src="seat2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="taxi4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    
+<script>
+    const swiper =new Swiper(".swiper", {
+        autoplay:{
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        navigation:{
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next"
+        },
+        pagination:{
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        effect: "coverflow"
+    });
+</script>
+
+</div>
+</div>
+</section>
+<!-- --------------------------------DIV 4-------------------->
+<section class="hidden">
+<div class="div-4">
+    <div class="ride">
+    <h2>What Our Customers Say</h2>
+    <p>Hear from our satisfied customers about their experience with <br>Acme Taxi. </p>
+    </div>
+    <!-- 1 customer -->
+     <div class="review">
+    <div class="customer">
+        <p>"I've been using Acme Taxi for years and they've always <br> provided reliable and affordable service. The drivers are <br> professional and courteous, and I can always count on <br> them to get me to my destination on time."</p>
+        <img src="" alt="">
+        <h4>Gautam Prasad</h4>
+        <p>Frequent Rider</p>
+    </div>
+    <!-- 2 customer -->
+    <div class="customer">
+        <p>"I've been using Acme Taxi for years and they've always <br> provided reliable and affordable service. The drivers are <br> professional and courteous, and I can always count on <br> them to get me to my destination on time."</p>
+        <img src="" alt="">
+        <h4>Gautam Prasad</h4>
+        <p>Frequent Rider</p>
+    </div>
+
+    <!-- 3 customer -->
+    <div class="customer">
+        <p>"I've been using Acme Taxi for years and they've always <br> provided reliable and affordable service. The drivers are <br> professional and courteous, and I can always count on <br> them to get me to my destination on time."</p>
+        <img src="" alt="">
+        <h4>Gautam Prasad</h4>
+        <p>Frequent Rider</p>
+    </div>
+
+    <!-- 4 customer -->
+    <div class="customer">
+        <p>"I've been using Acme Taxi for years and they've always <br> provided reliable and affordable service. The drivers are <br> professional and courteous, and I can always count on <br> them to get me to my destination on time."</p>
+        <div><img src="" alt="">
+            <h4>Gautam Prasad</h4>
+            <p>Frequent Rider</p></div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- ----------------------DIV 5----------------------------->
+<section class="hidden">
+<div class="div-5">
+    <h1>Get in Touch</h1>
+<p>Have a question or need to book a ride? Fill out the form below <br>and we'll get back to you as soon as possible</p>
+<div class="form1">
+<form action="">
+    <input type="text" placeholder="Name"><br>
+    <input type="email" name="" id="" placeholder="Email"><br>
+    <textarea name="" id="" placeholder="Message"></textarea><br>
+    
+    <button> Send</button><br>
+    <p>Launched By Gautam Prasad </p><br>
+<p>Ideas and Innovated by Deepak Prasad</p>
+</form>
+</section>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
